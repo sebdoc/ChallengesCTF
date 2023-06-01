@@ -12,7 +12,7 @@ Introduction:
 
 	J'ai inscris mon flag dans un fichier PDF que j'ai mis dans un raid 5 à 3 disques mais je crois qu'il y en a un de brisé.
 	
-		
+```		
              *     ,MMM8&&&.            *
                   MMMM88&&&&&    .
                  MMMM88&&&&&&&
@@ -42,7 +42,7 @@ Introduction:
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
-  
+```  
 
 Writeup:
 	
@@ -58,7 +58,7 @@ Writeup:
 		vim exploit.py
 		
 	05 - Appuyer sur "i" et copier le script qui suit à l'intérieur.
-	
+```	
 from pwn import *
 
 #read the 2 working disks
@@ -70,7 +70,7 @@ disk3 = xor(disk1, disk2)
 
 #save the recovered disk
 write('disk3.img', disk3)
-
+```
 	06 - Enregistrer le script en faisant "Esc", ":qw" et "Enter".
 	
 	07 -  installer python avec la commande:
@@ -98,7 +98,7 @@ write('disk3.img', disk3)
 
 	14 - Retrouver le fichier PDF perdu dans le dossier "/mnt/raid".
 	
-	
+```	
              *     ,MMM8&&&.            *
                   MMMM88&&&&&    .
                  MMMM88&&&&&&&
@@ -128,7 +128,7 @@ write('disk3.img', disk3)
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
-
+```
 
 Flag:
 
