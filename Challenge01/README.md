@@ -43,7 +43,7 @@ Introduction:
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
-```  
+```
 
 Writeup:
 	
@@ -53,19 +53,19 @@ Writeup:
 	02 - Se rendre dans le dossier qui contient l'image chatton.jpg
 	
 	03 - Pour voir s'il y a quelque chose de caché dans l'image, exécuter la commande:	
-		`steghide info chatton.jpg`
+		steghide info chatton.jpg
 
 	04 - Répondre "y".
 	
 	05 - Laisser la passphrase vide. Appuyer sur "Enter".
 	
 	06 - Extraire le fichier secret.txt avec la commande:
-		`steghide extract -sf chatton.jpg`
+		steghide extract -sf chatton.jpg
 		
 	07 - Laisser la passphrase vide. Appuyer sur "Enter".
 	
 	08 - Afficher le fichier secret.txt avec la commande:
-		`cat secret.txt`
+		cat secret.txt
 
 
 ```	
