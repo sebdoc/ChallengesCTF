@@ -13,7 +13,7 @@ Introduction:
 	Le chatton est caché dans une jambe de pantalons.
 	Pourrez-vous trouver ce qu'il s'y cache d'autre?
 	
-	
+```	
              *     ,MMM8&&&.            *
                   MMMM88&&&&&    .
                  MMMM88&&&&&&&
@@ -43,7 +43,7 @@ Introduction:
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
-  
+```  
 
 Writeup:
 	
@@ -68,7 +68,7 @@ Writeup:
 		cat secret.txt
 
 
-	
+```	
              *     ,MMM8&&&.            *
                   MMMM88&&&&&    .
                  MMMM88&&&&&&&
@@ -98,7 +98,7 @@ Writeup:
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
-
+```
 
 Flag:
 
