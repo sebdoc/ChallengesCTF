@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bienvenue au CTF</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .buttons button {
+            margin: 10px; /* Ajoute un espace horizontal entre les boutons */
+        }
+
+        .buttons button:not(:last-child) {
+            margin-right: -5px; /* Compense l'espace entre les boutons */
+        }
+    </style>
+</head>
+<!-- La sécurité n'est pas absolue : 01253{8R4V0_V0U5_4V3Z_L3_PR3M13R_FL4G} -->
+<body>
+    <h1>Bienvenue au CTF !</h1>
+    
+    <div class="buttons">
+        <button onclick="showFlag1()">Flag 1</button>
+        <button onclick="showFlag2()">Flag 2</button>
+        <button onclick="showFlag3()">Flag 3</button>
+    </div>
+    
+    <script>
+        function showFlag1() {
+            alert("Le flag n'est pas ici");
+        }
+        
+        function showFlag2() {
+            window.location.href = 'flag2.html'; // Redirige vers flag2.html
+        }
+	
+        function showFlag3() {
+            window.location.href = 'flag3.html'; // Redirige vers flag3.html
+            // Fonction pour le bouton Flag 3
+        }
+    </script>
+</body>
+</html>

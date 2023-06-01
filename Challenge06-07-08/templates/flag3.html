@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flag 3</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .image {
+            margin-top: 20px;
+        }
+
+        #bbz-image {
+            width: 348px;
+            height: 251px;
+        }
+
+        .buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .buttons button {
+            margin: 10px; /* Ajoute un espace horizontal entre les boutons */
+        }
+
+        .buttons button:not(:last-child) {
+            margin-right: -5px; /* Compense l'espace entre les boutons */
+        }
+    </style>
+</head>
+<body>
+    <h1>On dirait que la petite créature veut nous dire quelque chose.</h1>
+
+    <div class="image">
+        <img id="bbz-image" src="./images/bon.png">
+    </div>
+
+    <div class="buttons">
+        <button onclick="showIndex()">Retour</button>
+    </div>
+
+    <script>
+        var sequence = ["off","off","on","on","off","off","off","off", "off","off","on","on","off","off","off","on", "off","off","on","on","off","off","on","off", "off","off","on","on","off","on","off","on", "off","off","on","on","off","off","on","on", "off","on","on","on","on","off","on","on", "off","on","off","on","off","on","off","off", "off","on","off","on","off","on","off","on", "off","on","off","on","on","on","on","on", "off","off","on","on","off","on","off","off", "off","off","on","on","off","on","off","on", "off","on","off","on","on","on","on","on", "off","on","off","off","on","on","off","off", "off","off","on","on","off","off","on","on", "off","on","off","on","on","on","on","on", "off","on","off","on","off","on","off","off", "off","on","off","on","off","off","on","off", "off","off","on","on","off","off","off","off", "off","off","on","on","off","off","off","on", "off","off","on","on","off","on","off","on", "off","off","on","on","off","off","off","on", "off","off","on","on","off","off","on","on", "off","on","off","off","on","on","off","on", "off","off","on","on","off","off","on","on", "off","on","off","on","on","on","on","on", "off","on","off","off","off","on","on","off", "off","on","off","off","on","on","off","off", "off","off","on","on","off","on","off","off", "off","on","off","off","off","on","on","on", "off","on","on","on","on","on","off","on",];
+        var imageIndex = 0;
+        var bbzImage = document.getElementById("bbz-image");
+
+        function changeImage() {
+            if (sequence[imageIndex] === "on") {
+                bbzImage.src = "./images/bon.png";
+            } else if (sequence[imageIndex] === "off") {
+                bbzImage.src = "./images/boff.png";
+            }
+
+            imageIndex = (imageIndex + 1) % sequence.length;
+
+        }
+        
+        function showIndex() {
+            window.location.href = 'index.html'; // Redirige vers index.html
+        }
+
+        setInterval(changeImage, 500); // Change l'image toutes les secondes (500 ms)
+    </script>
+</body>
+</html>
