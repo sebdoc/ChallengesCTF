@@ -13,7 +13,7 @@ Introduction:
 
 	Regardez-le bien, ce petit chatton est vraiment joooli. 
 	
-	
+```	
              *     ,MMM8&&&.            *
                   MMMM88&&&&&    .
                  MMMM88&&&&&&&
@@ -43,7 +43,7 @@ Introduction:
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
-  
+```  
 
 Writeup:
 	
@@ -69,7 +69,7 @@ Writeup:
 	09 - Afficher le fichier flag.txt avec la commande:
 		cat flag.txt
 
-	
+```	
              *     ,MMM8&&&.            *
                   MMMM88&&&&&    .
                  MMMM88&&&&&&&
@@ -99,8 +99,9 @@ Writeup:
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
-
+```
 
 Flag:
 
 	01253{D35_F015_17_F4UT_0B53RV3R}
+	
