@@ -5,7 +5,7 @@ Titre:
 
 Catégories:
 
-	- Sténographie
+	- Stéganographie
 	- Observation
 
 
