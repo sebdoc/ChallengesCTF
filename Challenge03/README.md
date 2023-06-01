@@ -50,6 +50,7 @@ Writeup:
 
 02 - Pour voir les métadonnées, exécuter la commande:	
 		`exiftool belzebuth.jpg`
+		</br>
 		
 ```	
              *     ,MMM8&&&.            *
