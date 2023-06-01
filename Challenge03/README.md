@@ -45,11 +45,11 @@ Introduction:
 ```  
 
 Writeup:
-	
-	01 - Se rendre dans le dossier qui contient l'image belzebuth.jpg
-	
-	02 - Pour voir les métadonnées, exécuter la commande:	
-		exiftool belzebuth.jpg
+
+01 - Se rendre dans le dossier qui contient l'image belzebuth.jpg
+
+02 - Pour voir les métadonnées, exécuter la commande:	
+		`exiftool belzebuth.jpg`
 		
 ```	
              *     ,MMM8&&&.            *
