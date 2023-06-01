@@ -23,7 +23,7 @@ Instructions:
 	03 - Ouvrir un navigateur web et se rendre à la page indiqué dans le terminal de commandes en prenant soin de bien d'indiquer le port.
 		Ex: 127.0.0.1:8181
 		
-	
+```	
              *     ,MMM8&&&.            *
                   MMMM88&&&&&    .
                  MMMM88&&&&&&&
@@ -53,7 +53,7 @@ Instructions:
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
-  
+```  
 
 Writeup défi 06:
 
@@ -78,7 +78,7 @@ Writeup défi 08:
 		touch 10.py
 		
 	03 - Avec votre éditeur de texte favori, copier cette séquence dans le script:
-
+```
 with open('output.txt', 'r') as file:
     content = file.read()
 
@@ -91,13 +91,13 @@ with open('binary_output.txt', 'w') as file:
     file.write(content)
 
 print("La conversion est terminée. Le résultat est enregistré dans le fichier 'binary_output.txt'.")
-	
+```	
 	04 - Ouvrir le fichier "binary_output.txt" et copier la séquence de "1" et de "0" qu'il contient dans la section "Input" du site "https://gchq.github.io/CyberChef/".
 		"001100000011000100110010001101010011001101111011010101000101010101011111001101000011010101011111010011000011001101011111010101000101001000110000001100010011010100110001001100110100110100110011010111110100011001001100001101000100011101111101"
 
 	05 - Glisser l'option "FromBinary" dans la "Recipe" et cliquer sur "Bake".
 
-	
+```	
              *     ,MMM8&&&.            *
                   MMMM88&&&&&    .
                  MMMM88&&&&&&&
@@ -127,7 +127,7 @@ print("La conversion est terminée. Le résultat est enregistré dans le fichier
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
-
+```
 
 Flags:
 
