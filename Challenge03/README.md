@@ -12,7 +12,7 @@ Introduction:
 
 	Ce petit chatton est trop joli, il doit cacher quelque chose.
 	
-	
+```		
              *     ,MMM8&&&.            *
                   MMMM88&&&&&    .
                  MMMM88&&&&&&&
@@ -42,7 +42,7 @@ Introduction:
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
-  
+```  
 
 Writeup:
 	
@@ -51,7 +51,7 @@ Writeup:
 	02 - Pour voir les métadonnées, exécuter la commande:	
 		exiftool belzebuth.jpg
 		
-	
+```	
              *     ,MMM8&&&.            *
                   MMMM88&&&&&    .
                  MMMM88&&&&&&&
@@ -81,7 +81,7 @@ Writeup:
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
-
+```
 
 Flag:
 
