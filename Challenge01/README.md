@@ -48,7 +48,9 @@ Introduction:
 Writeup:
 	
 	01 - Installer l'appliation Steghide avec la commande:
-		`sudo apt install steghide -y`
+		`
+		sudo apt install steghide -y
+		`
 
 	02 - Se rendre dans le dossier qui contient l'image chatton.jpg
 	
